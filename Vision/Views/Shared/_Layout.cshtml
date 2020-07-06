@@ -30,25 +30,26 @@
 <body>
     <header>
         <div style="width:100%;height:50px;background-color: black">
-            <h1 style="height:40px; color:white">ProTechMod</h1>
-            <h5 style="margin-left:850px; margin-top:-25px; color:white">
+                <h1 style="height:40px;" class="text-white-50">
+                   
+                    ProTechMod
+                </h1>
+            <h5 style="margin-left:850px; margin-top:-25px;" class="text-white-50">
                 <i class="fa fa-phone"></i>
                 123-456-789
             </h5>
-            <h5 style="margin-left:1050px; margin-top:-25px;color:white">
+            <h5 style="margin-left:1050px; margin-top:-30px;"class="text-white-50">
                 <i class="fa fa-envelope"></i>
-                protechmod@gmail.com
+                protech@gmail.com
             </h5>
 
         </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home"
-                   asp-action="Index">IT SECTION</a>
-                <a href="#section1"  class="navbar-brand">Servies</a>
-                <a href="#section2"  class="navbar-brand">Team</a>
-                <a href="#section3"  class="navbar-brand">Feedback</a>
-                <a href="#section4" class="navbar-brand">Contact</a>
+                <a href="#section1"  class="nav-link btn btn-link text-white-50">Servies</a>
+                <a href="#section2"  class="nav-link btn btn-link text-white-50">Team</a>
+                <a href="#section3"  class="nav-link btn btn-link text-white-50">Feedback</a>
+                <a href="#section4" class="nav-link btn btn-link text-white-50">Contact</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +64,7 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Content Management System
+                                    CMS
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -80,7 +81,7 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Contacts / NewsLetter
+                                    Contacts
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
@@ -96,7 +97,7 @@
                         {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Users / Orders
+                                    Orders
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="User" asp-action="Index">Users</a>
@@ -142,7 +143,7 @@
 
     <footer class="border-top footer text-muted bg-dark">
         <div class="container">
-            &copy; 2020 - Vision
+            &copy; @DateTime.Now.Year PROTECHMOD
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
